@@ -1,0 +1,23 @@
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+
+}
+
+footer p{
+    margin: 0;
+}
+footer .direita {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-right: 36px;
+}
+footer p:first-child {
+    text-align: left;
+}
+footer p:not(:first-child) {
+    text-align: right; /* Alinha os outros parágrafos à direita */
+  }
