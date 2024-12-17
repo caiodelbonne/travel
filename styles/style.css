@@ -1,0 +1,66 @@
+@import url(global.css);
+@import url(grid.css);
+@import url(footer.css);
+
+
+/* header */
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.explorer {
+  width: 330px;
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+/* section  */
+
+section {
+  display: flex;
+  margin-top: 25px;
+  gap: 2rem;
+  align-items: center;
+
+
+  .descricao {
+    /* margin-left: 2rem; */
+    flex: 1;
+
+    h1 {
+      font-size: 2rem;
+      font-weight: bold;
+    }
+    p {
+      font-size: 0.854rem;
+      margin-top: 20px;
+    }
+  }
+
+  img {
+    height: 176px;
+    width: 176px;
+  }
+  .icon {
+    height: 24px;
+    width: 24px;
+  }
+}
+.info {
+    
+    display: flex;
+    flex-direction: column;
+    gap: 16px; 
+    margin-right: 5rem;
+  }
+
+.info ul {
+  margin-left: auto;
+  margin-left: 400px;
+}
+.info ul li {
+  display: flex;
+  gap: 15px;
+  margin-top: 24px;
+}
