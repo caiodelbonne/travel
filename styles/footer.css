@@ -19,5 +19,5 @@ footer p:first-child {
     text-align: left;
 }
 footer p:not(:first-child) {
-    text-align: right; /* Alinha os outros parágrafos à direita */
+    text-align: right; 
   }
