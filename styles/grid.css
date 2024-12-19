@@ -1,26 +1,28 @@
 .grid {
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat(3,1fr);
-    
-    margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+
+  margin: 0 auto;
 }
 .grid img {
-    width: 286px;
-    height: 286px;
-    margin: 24px;
+  width: 286px;
+  height: 286px;
+  margin: 24px;
 }
 
-@media (max-width: 360px) {
-
-    img {
-        width: 328px;
-        height: 328px;
-    }
-    .grid {
-        display: grid;
-        grid-template-columns: 1fr;
-        margin: 0 auto;
-    }
-
+@media (max-width:360px) {
+/* body {
+    width: 361px;
+} */
+  .grid {
+    display: grid;
+    grid-template-columns: 360px;
+    grid-column: 1 / 1;
+  }
+  img {
+    width: 328px;
+    height: 328px;
+    margin: 16px 16px;
+  }
 }
