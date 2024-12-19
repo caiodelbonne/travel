@@ -12,17 +12,14 @@
 }
 
 @media (max-width:360px) {
-/* body {
-    width: 361px;
-} */
   .grid {
+    width: 350px;
     display: grid;
-    grid-template-columns: 360px;
+    grid-template-columns: auto;
     grid-column: 1 / 1;
   }
   img {
     width: 328px;
     height: 328px;
-    margin: 16px 16px;
   }
 }
